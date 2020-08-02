@@ -1,0 +1,2 @@
+(executable (name main))
+(rule (mode promote) (action (with-stdout-to output.scad (run ./main.exe))))
